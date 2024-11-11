@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的個人網站</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #3a86ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 36px;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .about {
+      background-color: #ffbe0b;
+    }
+    .portfolio {
+      background-color: #ff006e;
+      color: white;
+    }
+    .contact {
+      background-color: #8338ec;
+      color: white;
+    }
+    .social-media {
+      background-color: #3a86ff;
+      padding: 20px;
+    }
+    .social-media a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 24px;
+    }
+    .social-media a:hover {
+      text-decoration: underline;
+    }
+    .geometry {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 100px;
+      height: 100px;
+      background-color: #ff006e;
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+    .geometry-2 {
+      position: absolute;
+      top: 30%;
+      right: 10%;
+      width: 120px;
+      height: 120px;
+      background-color: #ffbe0b;
+      clip-path: circle(50%);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>歡迎來到我的個人網站</h1>
+</header>
+
+<section class="section about">
+  <h2>關於我</h2>
+  <p>這裡是一段關於你的簡短介紹。你可以寫下你的背景、興趣和目標。</p>
+</section>
+
+<section class="section portfolio">
+  <h2>作品展示</h2>
+  <p>在這裡，你可以展示你的一些作品，並提供相關的描述。</p>
+</section>
+
+<section class="section contact">
+  <h2>聯絡方式</h2>
+  <p>你可以在這裡留下你的聯絡資訊。</p>
+</section>
+
+<section class="social-media">
+  <h2>社交媒體</h2>
+  <a href="#">Instagram</a>
+  <a href="#">LinkedIn</a>
+  <a href="#">GitHub</a>
+</section>
+
+<div class="geometry"></div>
+<div class="geometry-2"></div>
+
+</body>
+</html>
